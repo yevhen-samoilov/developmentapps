@@ -1,6 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<body>
-<h1>Hello World</h1>
+
+<head>
+    <title>Development and promotion of applications and websites</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <h1>Development and promotion of applications and websites</h1>
+        <p>The development of mobile technologies is extremely rapid, the popularity of mobile devices and mobile
+            Internet is increasing every day. How to use such a rapid growth in the popularity of mobile technologies
+            for the benefit of the existing business?</br></br>
+            We offer development and promotion of applications on any iOS, Android, Web, Mac, Windows and Linux
+            platforms.</p>
+    </header>
+
+    <!-- Signup Form -->
+    <form id="signup-form" method="post" action="#">
+        <input type="phone" name="phone" id="phone" placeholder="Phone Number" />
+        <input type="submit" value="Send" onclick="sendEmail(document.getElementById('phone').value)" />
+    </form>
+
+    <!-- Footer
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Untitled.</li>
+            <li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </footer> -->
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
