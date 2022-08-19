@@ -1,14 +1,14 @@
 //index.js  
-function sendEmail(phone) {
+function sendEmail() {
     Email.send({
-        Host: 'hostnl02.fornex.host',
+        Host: "hostnl02.fornex.host",
         port: 587,
-        username: 'noreply@ic-o.info',
-        password: 'Z:nse?uE~MqL2!yA',
-        To: 'samoilovireland@gmail.com',
+        username: "noreply@ic-o.info",
+        password: "Z:nse?uE~MqL2!yA",
+        To: "samoilovireland@gmail.com",
         From: "noreply@ic-o.info",
         Subject: "Web Site",
-        Body: "Phone: " + phone,
+        Body: "Phone: ",
     }).then(
         message => alert("mail sent successfully")
     );
