@@ -2,7 +2,7 @@
 function sendEmail() {
     Email.send({
         Host: "hostnl02.fornex.host",
-        port: 587,
+        // port: 587,
         username: "noreply@ic-o.info",
         password: "Z:nse?uE~MqL2!yA",
         To: "samoilovireland@gmail.com",
