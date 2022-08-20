@@ -1,53 +1,84 @@
-<!DOCTYPE HTML>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icons.png" />
+    <meta name="description" content="Development and promotion of applications and websites" />
     <title>Development and promotion of applications and websites</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="assets/js/index.js"></script>
 </head>
 
 <body>
-
-    <header id="header">
-        <h2><a href=“tel://+353852016231”>+353 85 201 6231</a></h2>
-        <h1>Development and promotion of applications and websites 🤑</h1>
-        <p>The development of mobile technologies is extremely rapid, the popularity of mobile devices and mobile
-            Internet is increasing every day. How to use such a rapid growth in the popularity of mobile technologies
-            for the benefit of the existing business?</br></br>
-            We offer development and promotion of applications on any iOS, Android, Web, Mac, Windows and Linux
-            platforms.</p>
+    <header class="header">
+        <div class="logo" style="line-height: 26px;">
+            </span>APPS
+            <br><span class="sc">DEVELOPMENT</span>
+        </div>
+        <div class="header-button">
+            <a class="header-button__start" href="tel://+353852016231">+353 85
+                201 6231</a>
+        </div>
     </header>
+    <main class=" main">
+        <section class="section-cover">
+            <div class="container">
+                <div class="container-left section-awork-left">
+                    <img src="img/btc.png" alt="vmining bitcoin" class="img-left">
+                </div>
+                <div class="container-right">
+                    <h2 class="container-right-title">
+                        Development and Promotion <br> of Applications & Software 🤑
+                    </h2>
+                    <p>
+                        The development of mobile technologies is extremely rapid, the popularity of mobile
+                        devices and
+                        mobile Internet is increasing every day.<br><br>
+                        How to use such a rapid growth in the popularity of mobile technologies for the benefit
+                        of the
+                        existing business?<br><br>
+                        We offer development and promotion of applications on any iOS, Android, Web, Mac,
+                        Windows and
+                        Linux
+                        platforms.</p>
+                    <!-- <div onClick="window.location='https://smartcontract.vmining.org/login'" style="cursor:pointer"
+                        class="btn-sec-li section-acompany-li">
+                        <p>Invest now</p> -->
+                </div>
+            </div>
+            </div>
+            <img class="hg" src="img/hero-gradient.svg" alt="one" style="position: absolute;width: 100%; bottom: 0;">
 
-    <!-- Signup Form -->
-    <form id="signup-form" method="post" action="#">
-        <input type="phone" name="phone" id="phone" placeholder="Phone Number" />
-        <input type="submit" value="Send" onclick="sendEmail()" />
-    </form>
-    <h6>Address: Block 2, Clarion Village, Clarion Road, Sligo, Ireland</h6>
-
-
-    <!-- Footer
-    <footer id="footer">
-        <ul class="icons">
-            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-        <ul class="copyright">
-            <li>&copy; Untitled.</li>
-            <li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-    </footer> -->
-
-    <!-- Scripts -->
-    <script src="assets/js/main.js"></script>
-
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-col">
+            <div class="footer-col-one">
+                <h4>Contact Us</h4>
+                <a href="mailto://kapatsynav@gmail.com">kapatsynav@gmail.com</a>
+                <a href="https://goo.gl/maps/wLVXwQ1TdaYBkKqw6">Address: Block 2, Clarion Village, Clarion Road, Sligo,
+                    Ireland</a>
+            </div>
+            <!-- <div class="footer-col-two">
+                <h4>Affiliate program</h4>
+                <p>Earn 10% from every referral user</p>
+                <a href="https://smartcontract.vmining.org/login">Start</a>
+            </div> -->
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+            }
+            else {
+                $('header').removeClass("sticky");
+            }
+        });
+    </script>
 </body>
 
 </html>
