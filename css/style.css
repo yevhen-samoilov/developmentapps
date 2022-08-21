@@ -472,8 +472,13 @@ header.sticky {
 @media (max-width: 1100px) {
 
     .img-left {
-        margin-top: 220px;
+        margin-top: 50px;
         width: 40%;
+    }
+
+    .section-cover {
+        height: 100%;
+
     }
 
     .nav,
@@ -486,7 +491,7 @@ header.sticky {
         margin-top: 20vh;
     } */
 
-    .link-footer{
+    .link-footer {
         padding: 10px;
     }
 
@@ -555,9 +560,9 @@ header.sticky {
         font-weight: 400;
     }
 
-    .hg {
+    /* .hg {
         display: none;
-    }
+    } */
 
     h1 {
         font-size: 23px;
