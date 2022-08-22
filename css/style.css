@@ -481,6 +481,10 @@ header.sticky {
 
     }
 
+    .container-right-title {
+        font-size: 30px;
+    }
+
     .nav,
     .section-cover-img,
     .section-cover-right {
@@ -571,7 +575,11 @@ header.sticky {
     }
 
     .logo {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 0px 10px;
     }
 
     .header-button__start {
@@ -584,7 +592,7 @@ header.sticky {
     }
 
     .sc {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .footer-col {
